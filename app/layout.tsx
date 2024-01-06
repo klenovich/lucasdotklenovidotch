@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import './globals.css'
+import Link from 'next/link';
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -16,7 +17,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <div className="flex flex-col md:flex-row max-w-4xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
           <aside className="md:w-1/3 md:mr-8 mb-10 md:mb-0 overflow-auto md:h-screen">
             <div className="flex flex-col">
-              <h1 className="text-4xl font-serif font-bold text-[#000080]">Lucas Klenovich</h1>
+              <Link href="/"><h1 className="text-4xl font-serif font-bold text-[#000080]">Lucas Klenovich</h1></Link>
               <p className="mt-4 font-serif font-semibold">Email</p>
               <a className="font-serif text-[#000080]" href="mailto:lucas@klenovi.ch">
                 lucas@klenovi.ch
