@@ -9,7 +9,7 @@ export default function Home() {
           <header className="mb-4">
             <h1 className="text-2xl font-serif font-bold">About</h1>
           </header>
-          <p className="font-serif">This is a placeholder for the About section.</p>
+          <p className="font-serif"> Recently graduated with a Bachelors of Science in Finance at the University of Texas at Dallas with relevant coursework mostly in investment management and real estate. Significant academic experience in computer science, with coursework taken in Python, Java, C++, and others. Self taught with varying levels of proficiency in TypeScript / JavaScript (React, ReactNative, Next.js, Express, +more), PHP, and many other webdev languages / frameworks. Work experience garnered mainly in the startup field. Currently building <Link className='underline text-[#000080]' href="/mygreek">MyGreek</Link> and a couple spin off apps (<Link className='underline text-[#000080]' href="/smartvenue">SmartVenue</Link> and <Link className='underline text-[#000080]' href="/fundcodes">fund.codes</Link>). Did some ReactNative development for <Link className='underline text-[#000080]' href="/athena">Athena</Link> Fall 2023 and some React + Django work for <Link className='underline text-[#000080]' href="/politeia">Politeia</Link> in Summer 2022. I enjoy taking up a variety of projects outside these as well, some are included below or at <Link className='underline text-[#000080]' href="/projects/#more">Even More Projects</Link>.</p>
         </section>
 
 
@@ -140,7 +140,7 @@ export default function Home() {
             <article  className="mb-5 cursor-pointer hover:bg-blue-200 rounded">
               <h2 className="text-xl font-serif font-bold underline text-[#000080]">SmartVenue</h2>
               <p className="text-xl font-serif">Project</p>
-              <p className="mt-2 font-serif">Provided business development expertise for a startup building a new e-commerce platform and mobile application. Recruited a team of independent clothing producers with a combined revenue of over $2 million to join platform, spearheaded product development and worked with prominent music artists in the Pittsburgh region to create and manage a series of charity concerts during Summer 2021.</p>
+              <p className="mt-2 font-serif">Spin off of MyGreek providing mobile ticketing solutions for live events. Will be piloting with Post Genre for their Spring concert series in Pittsburgh. Built on React, Express, Mongo stack.</p>
               <p className="mt-2 font-semibold font-serif">Fall 2023 - Present</p>
             </article>
           </Link>
@@ -149,7 +149,7 @@ export default function Home() {
             <article  className="mb-5 cursor-pointer hover:bg-blue-200 rounded">
               <h2 className="text-xl font-serif font-bold underline text-[#000080]">Fund.Codes</h2>
               <p className="text-xl font-serif">Project</p>
-              <p className="mt-2 font-serif">Provided business development expertise for a startup building a new e-commerce platform and mobile application. Recruited a team of independent clothing producers with a combined revenue of over $2 million to join platform, spearheaded product development and worked with prominent music artists in the Pittsburgh region to create and manage a series of charity concerts during Summer 2021.</p>
+              <p className="mt-2 font-serif">Spin off of MyGreek providing fundraising solutions for organizations and individuals raising for charitable or personal endeavors. Will be piloting with organizations at UT-Dallas this upcoming Spring. Built on React, Express, Mongo stack.</p>
               <p className="mt-2 font-semibold font-serif">Fall 2023 - Present</p>
             </article>
           </Link>
@@ -158,12 +158,22 @@ export default function Home() {
             <h2 className="text-2xl font-serif font-bold underline text-[#000080]">Even More Projects</h2>
           </Link>
 
+          <section className="mb-10"></section>
 
+          <Link href="/fundcodes" id="fundcodes">
+            <article  className="mb-5 cursor-pointer hover:bg-blue-200 rounded">
+              <p className="font-serif text-xs">2024 Lucas Klenovich</p>
+              <p className="mt-1 font-serif text-xs">This site is built using Next.js and Tailwindcss.</p>
+              <p className="font-serif text-xs">Project: <Link className='underline text-[#000080]' href="/lucasdotklenovidotch">lucasdotklenovidotch</Link></p>
+              <p className="font-serif text-xs">Source: <Link className='underline text-[#000080]' href="http://github.com/klenovich/personalsite">klenovich/personalsite</Link></p>
+            </article>
+          </Link>
 
         </section>
 
-
+        
         <section className="mb-10"></section>
+        
       </div>
   )
 }
