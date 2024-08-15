@@ -118,15 +118,6 @@ export default function Home() {
             </article>
           </Link>
 
-          <Link href="/kappasigma">
-            <article  className="mb-5 cursor-pointer hover:bg-blue-200 rounded">
-              <h2 className="text-xl font-serif font-bold underline text-[#000080]">Kappa Sigma Fraternity</h2>
-              <p className="text-xl font-serif">Treasurer, University of Texas at Dallas</p>
-              <p className="mt-2 font-serif">Fraternity treasurer managing over $100 thousand in yearly dues revenue as well as all long-term investments. Significant experience in budgeting, expense reporting, general accounting, federal nonprofit reporting, as well as countless other skills. Presided over philanthropy events which provided around $20,000 per year to charities.</p>
-              <p className="mt-2 font-semibold font-serif">April 2021 - May 2023</p>
-            </article>
-          </Link>
-
 
         </section>
 
