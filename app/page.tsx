@@ -153,7 +153,7 @@ export default function Home() {
 
           <Link href="/fundcodes" id="fundcodes">
             <article  className="mb-5 cursor-pointer hover:bg-blue-200 rounded">
-              <p className="font-serif text-xs">2024 Lucas Klenovich</p>
+              <p className="font-serif text-xs">2023 Lucas Klenovich</p>
               <p className="mt-1 font-serif text-xs">This site is built using Next.js and Tailwindcss.</p>
               <p className="font-serif text-xs">Project: <Link className='underline text-[#000080]' href="/lucasdotklenovidotch">lucasdotklenovidotch</Link></p>
               <p className="font-serif text-xs">Source: <Link className='underline text-[#000080]' href="http://github.com/klenovich/personalsite">klenovich/personalsite</Link></p>
