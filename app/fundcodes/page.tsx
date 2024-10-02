@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export default function Page() {
   return (
-      <div>
+      <div>{/*
         <section className="mb-10">
           <article className="mb-8">
               <h2 className="text-xl font-serif font-bold underline text-[#000080]">Fund.Codes</h2>
@@ -23,9 +23,9 @@ export default function Page() {
           <article className="mb-5 cursor-pointer hover:bg-blue-200 rounded">
             <h2 className="text-xl font-serif font-semibold underline text-[#000080]">Temporary explainer landing page</h2>
             <p className="mt-2 font-serif">fund.codes</p>
-            {/*<p className="mt-2 font-serif">May 2020 - May 2023</p>*/}
+            
           </article></Link>
-          </section>
+          </section>*/}
       </div>
   )
 }
