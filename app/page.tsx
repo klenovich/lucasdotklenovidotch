@@ -27,7 +27,7 @@ export default function Home() {
           {/*</Link>*/}
         </section>
 
-
+        {/*
         <section className="mb-10">
           <header className="mb-1">
             <h1 className="text-2xl font-serif font-bold">Experience / Projects</h1>
@@ -160,7 +160,7 @@ export default function Home() {
             </article>
           </Link>
 
-        </section>
+        </section>*/}
 
         
         <section className="mb-10"></section>
