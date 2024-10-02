@@ -4,6 +4,7 @@ import Link from 'next/link';
 export default function Page() {
   return (
       <div>
+        {/*
         <section className="mb-10">
           <article className="mb-8">
           <h1 className="text-2xl font-serif font-bold">Red River Partnership</h1>
@@ -23,9 +24,9 @@ export default function Page() {
           <article className="mb-5 cursor-pointer hover:bg-blue-200 rounded">
             <h2 className="text-xl font-serif font-semibold underline text-[#000080]">Red River Venues</h2>
             <p className="mt-2 font-serif">redrivervenues.com</p>
-            {/*<p className="mt-2 font-serif">May 2020 - May 2023</p>*/}
+           
           </article></Link>
-          </section>
+          </section>*/}
       </div>
   )
 }
