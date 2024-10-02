@@ -3,6 +3,7 @@ import Image from 'next/image'
 export default function Page() {
   return (
       <div>
+        {/*
         <section className="mb-10">
           <article className="mb-8">
           <h1 className="text-2xl font-serif font-bold">Athena</h1>
@@ -55,7 +56,7 @@ export default function Page() {
             <h1 className="text-2xl font-serif font-bold">Other</h1>
           </header>
           <p className="font-serif">This is a placeholder for the Other section.</p>
-        </section>
+        </section>*/}
       </div>
   )
 }
