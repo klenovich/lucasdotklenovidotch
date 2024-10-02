@@ -9,7 +9,7 @@ export default function Home() {
           <header className="mb-4">
             <h1 className="text-2xl font-serif font-bold">About</h1>
           </header>
-          <p className="font-serif"> Recently graduated with a Bachelors of Science in Finance at the University of Texas at Dallas with relevant coursework mostly in investment management and real estate. Significant academic experience in computer science, with coursework taken in Python, Java, C++, and others. Self taught with varying levels of proficiency in TypeScript / JavaScript (React, ReactNative, Next.js, Express, +more), PHP, and many other webdev languages / frameworks. Work experience garnered mainly in the startup field. Currently building <Link className='underline text-[#000080]' href="/mygreek">MyGreek</Link> and a couple spin off apps (<Link className='underline text-[#000080]' href="/smartvenue">SmartVenue</Link> and <Link className='underline text-[#000080]' href="/fundcodes">fund.codes</Link>). Did some ReactNative development for <Link className='underline text-[#000080]' href="/athena">Athena</Link> Fall 2023 and some React + Django work for <Link className='underline text-[#000080]' href="/politeia">Politeia</Link> in Summer 2022. I enjoy taking up a variety of projects outside these as well, some are included below or at <Link className='underline text-[#000080]' href="/projects/#more">Even More Projects</Link>.</p>
+          {/*<p className="font-serif"> Recently graduated with a Bachelors of Science in Finance at the University of Texas at Dallas with relevant coursework mostly in investment management and real estate. Significant academic experience in computer science, with coursework taken in Python, Java, C++, and others. Self taught with varying levels of proficiency in TypeScript / JavaScript (React, ReactNative, Next.js, Express, +more), PHP, and many other webdev languages / frameworks. Work experience garnered mainly in the startup field. Currently building <Link className='underline text-[#000080]' href="/mygreek">MyGreek</Link> and a couple spin off apps (<Link className='underline text-[#000080]' href="/smartvenue">SmartVenue</Link> and <Link className='underline text-[#000080]' href="/fundcodes">fund.codes</Link>). Did some ReactNative development for <Link className='underline text-[#000080]' href="/athena">Athena</Link> Fall 2023 and some React + Django work for <Link className='underline text-[#000080]' href="/politeia">Politeia</Link> in Summer 2022. I enjoy taking up a variety of projects outside these as well, some are included below or at <Link className='underline text-[#000080]' href="/projects/#more">Even More Projects</Link>.</p>*/}
         </section>
 
 
@@ -18,12 +18,13 @@ export default function Home() {
             <h1 className="text-2xl font-serif font-bold">Education</h1>
           </header>
           {/*<Link href="/utd">*/}
+          {/*
           <article className="mb-8 cursor-pointer hover:bg-blue-200 rounded">
             <h2 className="text-xl font-serif font-bold underline text-[#000080]">University of Texas at Dallas</h2>
             <p className="text-xl font-serif">B.S. Finance</p>
             <p className="mt-1 font-serif">Academic Excellence Scholarship</p>
             <p className="mt-1 font-serif font-semibold">Fall 2019 - Fall 2023</p>
-          </article>
+          </article>*/}
           {/*</Link>*/}
         </section>
 
